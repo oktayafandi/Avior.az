@@ -55,6 +55,7 @@ main {
   background-image: url("uploads/main.png");
   background-repeat: no-repeat;
   background-position: right;
+  height: 100vh;
 }
 
 .mainbtn1 {
@@ -202,4 +203,32 @@ main {
 
 .carlisec4 {
   margin-bottom: 15px;
+}
+
+.section6 {
+  background-color: #2bace2;
+}
+
+.contactcap {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+}
+
+.contacttext {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.contactform {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 160px;
+}
+
+.counter {
+  background-image: url(uploads/Ellipse\ 3.png);
 }

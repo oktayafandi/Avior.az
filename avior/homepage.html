@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" />
 </head>
@@ -65,8 +65,10 @@
                     looking at its <br> layout. The point of using Lorem Ipsum is that it has a more-<br>or-less normal
                     distribution of letters, as opposed It is a long establ
                 </p>
-                <button class="mainbtn1 btn btn-outline" type="submit">Связаться с нами</button>
-                <button class="mainbtn2 btn btn-outline" type="submit">Бесплатанаяbr консультация</button>
+                <div class="">
+                    <button class="mainbtn1 btn btn-outline mx-0" type="submit">Связаться с нами</button>
+                    <button class="mainbtn2 btn btn-outline mx-0" type="submit">Бесплатанаяbr консультация</button>
+                </div>
             </div>
         </section>
 
@@ -78,16 +80,19 @@
                         вашего бизнеса</h1>
 
                     <div class="col-lg-6 col-md-6">
-                        <div class="promcard card text-white mb-3" style="max-width: 40rem;">
-                            <div class="card-body">
+                        <div class="promcard card text-white mb-3" style="max-width: 40rem; height: 500px;">
+                            <div class="card-body" style="display: flex;">
                                 <div class="cardcaption">
                                     <h2 class="card-title">1</h2>
+                                </div>
+                                <div class="cardtext" style="padding-left: 15px;">
                                     <h2 class="card-title" style="font-size: 30px;">Комплексное продвижение бренда в
                                         социальных сетях</h2>
+                                    <p class="card-text">SMM-стратегия, разработка контент-плана, работа с блогерами,
+                                        отработка отзывов, реклама, конкурсы, отчетность</p>
                                 </div>
-                                <p class="card-text">SMM-стратегия, разработка контент-плана, работа с блогерами,
-                                    отработка отзывов, реклама, конкурсы, отчетность</p>
                             </div>
+
                         </div>
                     </div>
 
@@ -223,11 +228,63 @@
                 </div>
             </div>
         </section>
+
+        <section class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="counter">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <h1 class="contactcap">Отправляйте<br>
+                            заявку на<br>
+                            сотрудничесвто</h1>
+                        <p class="contacttext">Мы вам перезвоним</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-4 col-sm-12">
+                        <form class="contactform">
+                            <div class="mb-3">
+                                <input type="text" class="form-control formclass" id="exampleInputEmail1"
+                                    style="width: 80%; border-radius: 1.25rem;" placeholder="Имя">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control formclass" id="exampleInputEmail1"
+                                    style="width: 80%; border-radius: 1.25rem;" placeholder="Фамилия">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control formclass" id="exampleInputEmail1"
+                                    style="width: 80%; border-radius: 1.25rem;" placeholder="Номер телефона">
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 1.25rem;">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
 
 </html>
