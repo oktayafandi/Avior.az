@@ -100,6 +100,23 @@ main {
   font-size: 18px;
 }
 
+.cardcaptionnumber {
+  color: #fd9519;
+  font-size: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.cardtextcap {
+  font-size: 26px;
+}
+
+.cardtext {
+  padding-top: 30px;
+  opacity: 50%;
+  font-size: 22px;
+}
+
 .promcap {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -114,13 +131,9 @@ main {
   background-color: #08212b;
 }
 
-.cardcaption {
-  display: flex;
-}
-
 .sec3cap {
-  padding-top: 210px;
-  padding-bottom: 80px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -165,8 +178,8 @@ main {
 }
 
 .sec4cap {
-  padding-top: 210px;
-  padding-bottom: 80px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -210,8 +223,8 @@ main {
 }
 
 .contactcap {
-  padding-top: 160px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -226,9 +239,10 @@ main {
 
 .contactform {
   font-family: "Montserrat", sans-serif;
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
-.counter {
-  background-image: url(uploads/Ellipse\ 3.png);
+.counterimg {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
