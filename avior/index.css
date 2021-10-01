@@ -286,3 +286,20 @@ main {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+.fullstmr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 150px !important;
+}
+
+@media only screen and (min-width: 990px) {
+  .sec1 {
+    flex-direction: row-reverse !important;
+  }
+}
+
+.fullstackmarketing {
+  width: 100%;
+  padding-top: 150px;
+}
